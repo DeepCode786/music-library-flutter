@@ -15,7 +15,7 @@ class TrackDetailLoading extends TrackDetailState {}
 class TrackDetailLoaded extends TrackDetailState {
   final TrackModel track;
   const TrackDetailLoaded(this.track);
-
+// fsdfsdfsdf
   @override
   List<Object?> get props => [track];
 }
