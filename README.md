@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Music Library App
 
 ## Project Overview
@@ -41,3 +42,7 @@ The app uses an index-based paging strategy with a limit of 50 tracks per reques
 
 ## Search Strategy
 Search is implemented as a debounced local filter. As the user types, the `LibraryBloc` filters the `LibraryLoaded` track list. Because this happens in memory, the results are updated instantly without UI freezes, providing a smooth "live search" feel.
+=======
+# music-library-flutter
+Flutter music library app with BLoC pattern, infinite scroll, sticky headers, search filtering, and offline handling for 50k+ tracks
+>>>>>>> 28c55e1106abc0c5dc8b25fdb609d037d45738ce
